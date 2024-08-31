@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+   
+}
+body{
+    /* min-width: 600px;
+    max-width: 1440px; */
+}
+/* .content{
+   padding: 20px;
+} */
+.sub-content ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: right;
+     /* padding-right: 50px; */
+     margin: 10px;
+     
+    
+}
+
+.sub-content nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.second-contain{
+    display: flex;
+    /* flex-wrap: nowrap;
+    justify-content: space-between;
+    min-width: 600px;
+    max-width: 1440px; */
+
+  margin: 20px; 
+    width: 95%;
+
+
+}
+.second-contain header{
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 110px;
+}
+.second-contain p{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+}
+.second-contain form{
+    margin-left: 10px; 
+    display: flex;
+     gap: 10px; 
+    margin-top: 20px;
+}
+.form-contain input{
+       width: 100%;
+       height: 30px;
+       
+}
+.form-contain button{
+    width: 40%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.img-two img{
+    width: 90%;
+   
+}
+.img-two{
+    width: 100%;
+}
+.one-img img{
+    width: 100%;
+    
+}
+.one-img img{
+    display: block;
+}
+.two-contain h2{
+    width: 100%;
+    font-size: 37.5px;
+    padding: 15px;
+    margin-left: 10px;
+}
+.two-contain p{
+     margin-left: 15px; 
+    padding:10px ;
+    font-size: 16px;
+    width: 35%;
+}
+.two-contain a{
+    margin: 25px;
+    color: #a2d0c8;
+    display: flex;
+}
+ .three-contain{
+    width: 100%;   
+   
+
+}    
+
+.three-contain h2{
+    font-size: 33px;
+    width: 100%;
+}
+.three-contain p{
+    width: 100%;
+    /* padding: 5px; */
+    font-size: 16px;
+    /* margin-top: 20px; */
+
+}
+
+.para-one p{
+  margin-top: 25px;
+}
+.a-one {
+    margin-top: 20px;
+    
+}
+.a-one a{
+    display: flex;
+    color:#73dac7 ;
+}
+.div-one{
+   /* Border: 1px solid; */
+   width: 300px;
+   /* height: 350px; */
+   padding: 20px;
+  margin-top: 40px;
+  box-shadow: 1px 1px 5px;
+} 
+.div-two{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.div-two img{
+    border-radius: 50%;
+    width: 45px;
+    padding: 10px;
+    
+}
+
+.second-content{
+    padding: 30px;
+    display: flex;
+    /* flex-wrap: wrap;
+    min-width: 600px;
+    max-width: 1440px; */
+    background-color: #f9f8fe;
+    
+
+}
+
+.mani-image{
+    width: 100%;
+}
+.mani-image img{
+     width: 100%;
+    height: 100%; 
+    
+}
+.four-contain{
+    padding: 20px;
+    width: 100%;
+}
+.four-contain p,h2{
+       margin-top: 30px;
+}
+.four-contain h2{
+    font-weight: 700;
+}
+.four-contain p{
+    width: 65%;
+}
+.form-one{
+    width: 100%;
+    margin-top: 65px;
+}
+.form-one input{
+  display: flex;
+  width: 50%; 
+  height: 30px;
+}
+.form-one button{
+ 
+    padding: 10px;  
+    margin-top: 30px;
+    background-color: #334db6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.third-content{
+    width: 100%;
+    height: 240px;
+   display: flex;
+   justify-content: space-between;
+   background-color:#575989 ;
+   color: white;
+   
+}
+
+
+.four-contain img{
+    border-radius: 50%;
+    width: 20%;
+    
+}
+.foot-one{
+    background-color: #07043b;
+   
+   color: white;
+   width: 100%;
+
+}
+.four-one {
+    width: 100%;
+}
+.ul-one li{
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.ul-two li{
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.img-phone{
+    margin-top:20px;
+    margin: 10px;
+    
+}
+
+.img-mail a{
+     margin-top: 10px;
+}
+.four-one img{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+
+.four-two{
+    display: flex;
+   align-items: first baseline;
+   gap: 10%;
+   padding: 15px;
+   margin-left: 15px;
+  
+}
+.icon-web i{
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.img-phone a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.icon-two{
+    padding: 10px;
+}
+.icon-two img{
+    margin-right: 10px;
+}
+.img-mail{
+    padding: 10px;
+
+}
+.img-mail img{
+    margin-right: 10px;
+}
+.form-contain:hover button{
+    background-color: #6b9bff;
+}
+.form-one button:hover {
+    background-color: #789ef1;
+}
+.ul-one li:hover{
+    color: hsl(238, 22%, 44%);
+}
+.ul-two li:hover{
+    color: hsl(238, 22%, 44%);
+}
+.icon-web i:hover{
+    color: hsl(238, 22%, 44%);
+}
