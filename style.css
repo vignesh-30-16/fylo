@@ -9,9 +9,9 @@
 
 
 body{
-    width: 100%;
+    /* width: 90%; */
     font-family: "Open Sans", sans-serif;
-    /* min-width: 400px; */
+    min-width: 400px;
     font-size: 400;
 
     
@@ -19,8 +19,8 @@ body{
 .content{
    /* padding: 20px; */
    width: 100%;
-   max-width: 1440px;
-   min-width: 475px;
+   /* max-width: 1440px;
+   min-width: 475px; */
 }
 .sub-content ul{
     display: flex;
@@ -47,12 +47,15 @@ body{
     max-width: 1440px; */
    /* min-width: 500px; */
   /* margin: 20px;  */
-    width: 100%;
+    width: 95%;
+    /* height: 100%; */
+    margin: 30px;
 
 
 }
 .join-contain{
-    width: 100%;
+    width: 70%;
+    /* height: 100%; */
 }
 .join-contain header{
     width: 80%;
@@ -107,7 +110,7 @@ body{
    
 }
 .img-two{
-    width: 50%;
+    width: 40%;
     min-width: 400px;
 }
 .one-img img{
@@ -157,6 +160,7 @@ body{
 }
 .div-one{
     margin-left: 30px;
+    margin-top: 50px;
 }
 .para-one{
     margin-left: 30px;
@@ -197,10 +201,17 @@ body{
 .second-content{
     /* padding: 30px; */
     display: flex;
+    background-image: url(images/bg-curve-desktop.svg);
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    /* margin-bottom: 30px; */
+    background-repeat: no-repeat;
+    /* margin-top: 30px; */
     /* flex-wrap: wrap;
     min-width: 600px;
     max-width: 1440px; */
-    background-color: #f9f8fe;
+    /* background-color: #f9f8fe; */
     /* width: 100%; */
 
 }
@@ -208,6 +219,8 @@ body{
 .main-image{
     width: 100%;
     min-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .main-image img{
      width: 100%;
@@ -222,7 +235,7 @@ body{
     
 }
 .third-content{
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .four-contain h2{
     font-family: "Raleway", sans-serif;
@@ -328,6 +341,7 @@ body{
    
   
 }
+
 .icon-web i{
     color: white;
     border: 1px solid;
@@ -376,8 +390,9 @@ body{
 
     
     .second-contain{
-        width: 100%;
+        width: 95%;
         flex-direction: column-reverse;
+        margin-top: 20px;
         /* margin:3%; */
         /* border: 2px solid blue; */
     }
@@ -436,14 +451,19 @@ body{
 
 
 
-.one-img img{
-    background-image: url(images/bg-curve-mobile.svg);
-    width: 100%;
-    margin-top: 30px;    
-}
 .second-content{
     width: 100%;
+    background-image: url(images/bg-curve-mobile.svg);
+    width: 100%;
+    /* height: 100%; */
+    /* margin-top: 30px;  */
+    /* margin-bottom: 50px; */
 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    /* background-color: none; */
     padding: none;
         flex-direction: column-reverse;
         /* border: 2px solid yellow; */
@@ -468,20 +488,22 @@ body{
     
     
 }
-.main-image{
-    /* border: 2px solid orange; */
-}
+
 .div-one{
-    margin-bottom: 100px;
-    margin-left: 20px;
+    width: 50%;
+   /* margin-top: 50px; */
+   /* margin-bottom: 20px ; */
+    margin: 40px auto;
 }
 .a-one{
     width: 100%;
+    margin-top: 20px;
     
 }
 .a-one a{
     width: 100%;
-  /* margin-left: 300px; */
+    margin-bottom: 20px;
+  
   gap: 0px;
   justify-content: center;
   align-items: center;
@@ -494,6 +516,7 @@ body{
 }
 .form-contain{
     width: 100%;
+    /* margin-bottom: 20px; */
 }
 .four-contain{
   width: 100%;
@@ -505,10 +528,12 @@ body{
 }
 .form-class{
         width: 100%;
+        /* margin: 30px auto; */
         display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 40px auto;
 }
 .form-one{
     width: 100%;
@@ -516,36 +541,30 @@ body{
     margin: 20px;
     
    
-    /* margin-top: 20px; */
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+   
 
 }
 .form-one input{
     width: 70%;
-    /* margin-left: 40px; */
+    
     
 
 }
 .form-one button{
        width: 70%;
-       /* margin-left: 35px ; */
+     
        margin-top: 10px;
        
 
 }
-/* .five-contain{
-    width: 80%;
-} */
+
  .foot-one{
     width: 100%;
  }
 .four-content{
     flex-wrap: wrap;
     display: flex;
-    /* border: 2px solid pink; */
+    
 }
 .four-two{
     flex-wrap: wrap;
@@ -582,7 +601,7 @@ body{
     margin: 0%;
     margin-top: 10px;
     margin-left: 10px;
-    /* border: 2px solid green; */
+    
     
    
 }
